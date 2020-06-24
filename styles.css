@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     height: 100%;
+    margin: 1px;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -12,28 +13,58 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
-
+.flex{
+    display: flex;
+    height: 90%;
+}
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: rgb(106, 106, 155);
+    color: white;
+    height: 100vh;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 100%;
+    background-color: rgb(221, 135, 199);
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
 }
 
 .main{
+    height:92% ;
+    text-align: center;
+    background-color: rgb(132, 184, 178);
+    border-radius: 5px;
+    margin: 5px;
 
+}
+.container{
+    height: 20%;
+    display: flex;
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
+a:hover{
+    color:white
+}
 
+p{
+    text-align: center;
+}
 
 
 h1{
